@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   // Lint then format TypeScript and JavaScript files
   '/**/*.(ts|tsx|js|jsx)': filenames => [
     `prettier --write ${filenames.join(' ')}`,

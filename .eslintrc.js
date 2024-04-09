@@ -1,5 +1,5 @@
 const path = require('path');
-module.exports = {
+export default {
   root: true,
   extends: ['react-app', 'prettier'],
   plugins: ['react', 'prettier'],

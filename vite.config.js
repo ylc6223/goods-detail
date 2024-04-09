@@ -4,6 +4,7 @@ import { resolve } from 'path';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: "goods-detail",
   resolve: {
     alias: {
       // @ 替代为 src
