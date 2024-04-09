@@ -1,0 +1,6 @@
+.tag {
+  @apply relative shrink-0 inline-flex items-center justify-center pt-[2px] pb-[3px] px-[6px] overflow-hidden rounded-[4px]
+}
+.tag-border{
+  @apply absolute w-[200%] h-[200%] scale-50 origin-[0_0] box-border left-0 top-0 rounded-[4px] border-[1px] border-solid pointer-events-none
+}

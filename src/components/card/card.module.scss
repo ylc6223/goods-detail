@@ -1,0 +1,29 @@
+.card {
+  @apply w-full rounded-[10px] my-[10px] py-4 px-3 shadow-[0_0_10px_0_rgba(0,0,0,0.02)] bg-white
+
+}
+
+.card-border {
+
+}
+
+.card-header {
+  //@apply absolute bottom-0 right-0 left-0 border-b border-gray-200 bg-transparent pointer-events-none scale-y-50
+}
+
+.tui-header-line::after {
+  border-bottom: 0 !important;
+}
+
+.card-title {
+  font-family: "PingFang SC";
+  @apply font-medium
+}
+
+.card-body {
+
+}
+
+.card-footer {
+
+}

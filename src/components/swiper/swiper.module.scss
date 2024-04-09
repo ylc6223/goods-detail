@@ -1,0 +1,50 @@
+#swiper-container {
+  @apply relative w-full h-full flex overflow-hidden
+}
+
+#swiper-list {
+  @apply flex items-center z-0 relative
+}
+
+.swiper-item {
+  @apply w-full h-full z-10 flex-[0_0_100%] origin-center
+}
+
+.swiper-item-active {
+}
+
+.play-btn {
+  @apply absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[60px] h-[60px] bg-[#99999980] rounded-full z-10
+}
+
+.play-btn-mini {
+  @apply bg-[#999] scale-[0.33] cursor-default
+}
+
+#indicator-container {
+  @apply absolute top-[315px] left-[12px] flex justify-evenly items-center w-[215px] h-[48px] rounded-[27px] bg-[#99999980]
+}
+
+#indicator-text {
+  @apply text-white font-bold text-sm font-[DINPro]
+}
+
+#indicator-list {
+  @apply flex h-auto flex-nowrap gap-x-[10px] max-w-[120px] origin-center
+}
+
+#indicator-list::-webkit-scrollbar {
+  display: none;
+}
+
+.indicator-item {
+  @apply relative flex flex-[0_0_auto] whitespace-nowrap justify-center items-center w-8 h-8 rounded-[6px] overflow-hidden transition ease-in-out
+}
+
+.indicator-item-active {
+  @apply scale-110
+}
+
+.arrow-left {
+
+}

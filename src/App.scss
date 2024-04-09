@@ -1,0 +1,66 @@
+.page {
+  position: relative;
+  max-width: 375px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: "PingFang SC";
+  background-color: #f8f8fa;
+}
+
+.header-banner {
+  @apply w-full h-[375px] overflow-hidden
+}
+
+.main-content {
+  @apply px-3 pb-5
+}
+
+.text-primary {
+  @apply text-[#333] text-sm leading-5
+}
+
+.text-secondary {
+  @apply text-[#999] text-sm leading-5
+}
+
+.text-warning {
+  @apply text-[#e77846]
+}
+
+.text-danger {
+  @apply text-[#E34242]
+}
+
+.divide-col {
+  @apply relative h-[41px] w-[1px] mx-3
+}
+
+.divide-row {
+  @apply relative h-[1px] w-full my-2
+}
+
+.divide-col::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #F8F8FA; /* 线的颜色 */
+  transform: scaleX(0.5); /* 缩放X轴来实现一像素宽 */
+}
+
+.divide-row::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #EEE; /* 线的颜色 */
+  transform: scaleY(0.5); /* 缩放Y轴来实现一像素宽 */
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
